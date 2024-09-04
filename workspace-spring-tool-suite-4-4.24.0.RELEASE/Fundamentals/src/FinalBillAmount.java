@@ -10,7 +10,6 @@ public class FinalBillAmount {
 		
 		double discountAmount = totalCost * discountRate;
 		
-		
 		double finalBill =  totalCost - discountAmount;
 		
 		System.out.println("********** Pizza Bill **********");
