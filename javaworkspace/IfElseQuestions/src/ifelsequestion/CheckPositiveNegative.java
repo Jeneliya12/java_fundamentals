@@ -15,6 +15,8 @@ public class CheckPositiveNegative {
 		else {
 			System.out.println(input + "is a negative number");
 		}
+		scanner.close();
 	}
+	
 
 }
