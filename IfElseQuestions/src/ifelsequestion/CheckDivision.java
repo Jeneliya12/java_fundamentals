@@ -10,7 +10,7 @@ public class CheckDivision {
 		System.out.print("Enter Your total Marks:");
 		int totalMarks = scanner.nextInt();
 		
-		System.out.print("Enter the Marks Obtained");
+		System.out.print("Enter the Marks Obtained: ");
 		int marksObtained = scanner.nextInt();
 		
 		double percentage = (double) marksObtained/totalMarks*100;

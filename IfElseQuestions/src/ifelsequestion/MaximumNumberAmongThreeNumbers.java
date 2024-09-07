@@ -3,23 +3,20 @@ package ifelsequestion;
 public class MaximumNumberAmongThreeNumbers {
 
 	public static void main(String[] args) {
-		
-		int maxNum;
+	
 		int firstNumber = 10;
 		int secondNumber = 20;
 		int thirdNumber = 30;
 		
 		if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
-			maxNum = firstNumber;
+			System.out.println("maximum number is : " + firstNumber);
 		}
 		else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
-			maxNum = secondNumber;
+			System.out.println("maximum number is : " + secondNumber);
 		}
 		else {
-			maxNum = thirdNumber;
+			System.out.println("maximum number is : " + thirdNumber);
 		}
-
-        System.out.println("Maximum number is : " + maxNum);
 	}
 
 }

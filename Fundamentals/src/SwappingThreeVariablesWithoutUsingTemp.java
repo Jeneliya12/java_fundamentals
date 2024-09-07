@@ -11,10 +11,10 @@ public class SwappingThreeVariablesWithoutUsingTemp {
 		System.out.println("Value of B :" +  b);
 		System.out.println("Value of C :" +  c);
 		
-		a = a + b + c; //a becomes 27 (8 + 9 + 10)
-		b = a - (b + c);
-		c = a - (b + c);
-		a = a - (b + c);
+		c = a + b + c;
+		b = c - (a + b);
+		a = c - (a + b);
+		c = c - (a + b);
 		
 		System.out.println("**********  After Swapping **********");
 		System.out.println("Value of A :" +  a);

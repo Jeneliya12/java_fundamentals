@@ -9,9 +9,9 @@ public class SwappingTwoVariablesWithoutTemp {
 		System.out.println("Value of A :" +  a);
 		System.out.println("Value of B :" +  b);
 		
-		a = a + b; //a becomes 17 (8 + 9)
-		b = a - b; //b becomes 8 (17 - 9)
-		a = a - b; //a becomes 9 (17 - 8)
+		a = a + b; 
+		b = a - b; 
+		a = a - b;
 		
 		System.out.println("**********  After Swapping  **********");
 		System.out.println("Value of A :" +  a);

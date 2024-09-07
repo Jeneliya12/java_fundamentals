@@ -7,7 +7,7 @@ public class CheckAlphabet {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner (System.in);
 		
-		System.out.println("Enter an alphabet");
+		System.out.println("Enter an alphabet: ");
 		char input = scanner.next().charAt(0);
 		
 		if (Character.isLetter(input)) {

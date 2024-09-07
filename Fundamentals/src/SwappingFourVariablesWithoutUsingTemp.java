@@ -12,7 +12,8 @@ public class SwappingFourVariablesWithoutUsingTemp {
 		System.out.println("Value of B :" +  b);
 		System.out.println("Value of C :" +  c);
 		System.out.println("Value of D :" +  d);
-		d = a + b + c + d; //a becomes 27 (8 + 9 + 10)
+		
+		d = a + b + c + d; 
 		c = d - (a + b + c);
 		b = d - (a + b + c);
 		a = d - (a + b + c);

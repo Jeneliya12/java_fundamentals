@@ -8,10 +8,10 @@ public class CheckDaysForMonth {
 		
 	Scanner scanner = new Scanner(System.in);
 	
-	System.out.println("Enter month between 1-12");
+	System.out.println("Enter month between 1-12: ");
 	int month = scanner.nextInt();
 	
-	System.out.print("Enter the year");
+	System.out.print("Enter the year: ");
 	int year = scanner.nextInt();
 	
 	if(month == 1) {

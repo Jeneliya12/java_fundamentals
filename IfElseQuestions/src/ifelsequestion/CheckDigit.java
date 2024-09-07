@@ -6,7 +6,7 @@ public class CheckDigit {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Enter a digit");
+		System.out.println("Enter a digit: ");
 		char input = scanner.next().charAt(0);
 		 
 		if (Character.isDigit(input)) {

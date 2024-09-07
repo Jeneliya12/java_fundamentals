@@ -8,7 +8,7 @@ public class WeekDay {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("Enter a number between (1-7) for the day of the week");
+		System.out.print("Enter a number between (1-7) for the day of the week: ");
 		int input = scanner.nextInt();
 		
 		if(input ==1) {
