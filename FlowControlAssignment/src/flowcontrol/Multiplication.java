@@ -1,12 +1,14 @@
 package flowcontrol;
 
+import flowcontrol.Utils.ScannerUtil;
+
 import java.util.Scanner;
 
 public class Multiplication {
 
 	public static void main(String[] args) {
 	
-	Scanner scanner = new Scanner(System.in);
+	Scanner scanner = ScannerUtil.getScanner();
 	
 	System.out.print("Enter any Number to Find the multiplication table: ");
 	int number = scanner.nextInt();
